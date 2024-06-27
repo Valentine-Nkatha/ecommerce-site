@@ -12,11 +12,12 @@ const Products = () =>{
       {products.length > 0
         ? products.map((product) => (
             <ProductCard
-              key={product.description}
+              key={product.id}
               image={product.image}
               price={product.price}
-              description={product.description}
               category={product.category}
+              description ={product.title}
+            
             />
           ))
         : !loading && <h2>No products found</h2>}

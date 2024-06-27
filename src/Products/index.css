@@ -4,11 +4,20 @@
     font-size: small;
     margin-top: 22px;
     justify-content: center; */
-    height: 50px;
+    /* height: 50px;
     width: 50px;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* justify-content: center; */
+    /* padding: 20px; */
+    font-size: small;
+    gap: 8px;
+    margin-left: 5%;
 }
-.product-images {
-    flex: 0 1 calc(30% - 20px);
-    max-width: calc(30% - 20px);
+
+.product-images img{
+    width: 50%;
+    height: 50%;
+    
 }
