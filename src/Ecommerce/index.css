@@ -1,0 +1,48 @@
+.landing-page-one{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+}
+#categories{
+   height: 30px;
+   margin-top: 8px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.landing-page-image{
+    display: flex;
+    gap: 10%;
+    margin-left: 25px;
+  
+    
+}
+.image{
+    width: 400px;
+    object-fit: contain;
+  
+}
+.btn-discount{
+    background-color: yellow;
+    border-radius: 50px;
+    
+}
+.btn-shop{
+    background-color: black;
+    color: white;
+}
+.page-two{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+#top-categories{
+    height: 30px;
+    margin-top: 8px;
+ }
+ .Top-categories{
+    display: flex;
+    justify-content: space-around;
+ }
